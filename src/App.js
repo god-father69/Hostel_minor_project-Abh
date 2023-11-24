@@ -90,6 +90,7 @@ if(admintoken){
       <Route exact path="/complains" element={<Complains/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/temp" element={<Temp/>}/>
+      
       <Route path="/attendance" element={<Attendance/>}/>
 
       <Route exact path="/signup" element={<Signup/>}/>
