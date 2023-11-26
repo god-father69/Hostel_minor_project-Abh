@@ -152,7 +152,7 @@ export const Home = () => {
       </div>
       <div className="one two firstinhome">
         <div
-          className="flex flex-wrap mt-6 -mx-3 billoone"
+          className="flex flex-wrap mt-6 -mx-3 billoone pp2"
           style={{ width: "100%",  }}
         >
           

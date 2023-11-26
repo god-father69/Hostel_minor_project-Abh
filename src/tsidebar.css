@@ -285,7 +285,10 @@ padding: 2px;
     display: none!important;
   }
   .billoone{
-    flex-direction: column;
+    flex-direction: row;
+  }
+  .pp2{
+    flex-direction: column!important;
   }
   .blackbgp{
     height: 135px;
