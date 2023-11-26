@@ -140,7 +140,7 @@ export const Adminsidebar = () => {
                 </span>
               </Link>
             </li>
-            <li className="mt-0.5 w-full" id="feedbackli">
+            {/* <li className="mt-0.5 w-full" id="feedbackli">
               <Link onClick={() => setact(3)}
                 className={`py-2.7 text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap px-4 font-semibold text-slate-700 transition-colors ${isact===3 && "shadow-soft-xl rounded-lg bg-white"}`}
                 to="/temp"
@@ -152,7 +152,7 @@ export const Adminsidebar = () => {
                   Feedback
                 </span>
               </Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link to="/about">about</Link>
             </li> */}
@@ -177,9 +177,9 @@ export const Adminsidebar = () => {
             ></div>
           </div>
         </div>
-        <div className="mx-4" style={{width:"100%"}}>
+         <div className="mx-4" style={{width:"100%"}}>
           <p className="invisible hidden text-gray-800 text-red-500 text-red-600 after:bg-gradient-to-tl after:from-gray-900 after:to-slate-800  after:bg-gradient-to-tl after:from-blue-600 after:to-cyan-400 after:bg-gradient-to-tl after:from-red-500 after:to-yellow-400 after:bg-gradient-to-tl after:from-green-600 after:to-lime-400 after:bg-gradient-to-tl after:from-red-600 after:to-rose-400 after:bg-gradient-to-tl after:from-slate-600 after:to-slate-300 text-lime-500 text-cyan-500 text-slate-400 text-fuchsia-500"></p>
-          <div
+          {/* <div
             className="after:opacity-65 after:bg-gradient-to-tl after:from-slate-600 after:to-slate-300 relative flex min-w-0 flex-col items-center break-words rounded-2xl border-0 border-solid border-blue-900 bg-white bg-clip-border shadow-none after:absolute after:top-0 after:bottom-0 after:left-0 after:z-10 after:block after:h-full after:w-full after:rounded-2xl after:content-['']"
             sidenav-card=""
           >
@@ -190,15 +190,15 @@ export const Adminsidebar = () => {
             ></div>
             <div className="relative z-20 flex-auto w-full p-4 text-left text-white ps2" style={{overflow:"auto",maxHeight:"200px"}}>
              
-              <div className="transition-all duration-200 ease-nav-brand">
+              <div className="transition-all duration-200 ease-nav-brand"> */}
                 {/* <div className="d-flex justify-content-center">
                 <p className="mt-0 font-semibold leading-tight text-xs">
                  Shaktimaan Singh
-                </p></div> */}
+          </p></div> */}
                
-              </div>
+              {/* </div>
             </div>
-          </div>
+          </div>  */}
 
           <button
             className="inline-block w-full px-6 py-3 my-4 font-bold text-center text-white uppercase align-middle transition-all ease-in border-0 rounded-lg select-none shadow-soft-md bg-150 bg-x-25 leading-pro text-xs bg-gradient-to-tl from-purple-700 to-pink-500 hover:shadow-soft-2xl hover:scale-102 bluegrad" onClick={logout}>

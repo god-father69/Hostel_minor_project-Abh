@@ -161,9 +161,9 @@ for(let i=0;i<json.length;i++){
 <div className="max-w-full px-3 lg:w-1/2 lg:flex-none">
 <div className="flex flex-col h-full">
 <p className="pt-2 mb-1 font-semibold">Welcome to</p>
-<h5 className="font-bold">Mega Boys Hostels</h5>
+<h5 className="font-bold">IIIT Lucknow hostel</h5>
 <p className="mb-12">The hostel facility is available to the regular students who are on the rolls of the institute depending upon the availability.</p>
-<a className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500" target={'_blank'} href="https://www.nitj.ac.in/index.php/nitj_cinfo/index/23">
+<a className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500" target={'_blank'} href="https://iiitl.ac.in/wp-content/uploads/2019/11/students-guidelines-rules-11-10-19.pdf">
 Read More
 <i className="fas fa-arrow-right ease-bounce text-sm group-hover:translate-x-1.25 ml-1 leading-normal transition-all duration-200" aria-hidden="true"></i>
 </a>
@@ -368,7 +368,7 @@ Read More
 <div>
 <div className='d-flex rdetails'>
   <p className='stdd'>Name : <span className='hstdd'>{sname}</span></p>
-  <p className='stdd'>Hostel : <span className='hstdd'>MBHF</span></p>
+  <p className='stdd'>Hostel : <span className='hstdd'>Hostel 1</span></p>
 </div>
 <div className='d-flex rdetails'>
   <p className='stdd'>Room no : <span className='hstdd'>{sroom}</span></p>
@@ -398,7 +398,7 @@ Next
 </div>
    </div>
    
- <div className="one third">
+ {/* <div className="one third">
 <div className="flex flex-wrap mt-6 -mx-3 thirdbloon">
 <div className=" px-3 mt-0 mb-6 lg:mb-0 lg:flex-none panjwta">
 <div className="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
@@ -501,7 +501,7 @@ Next
 </div>
   
 </div> 
-  
+   */}
    </>
     
   )

@@ -88,7 +88,8 @@
     background-color: transparent;
 }
 .signinbg{
-    background-image: url('./components/static/proton.jpg');
+    background-image: url('./components/static/signinjpg.jpg');
+    background-size: contain;
 }
 .hclass{
     display: flex;

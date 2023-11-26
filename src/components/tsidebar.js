@@ -228,7 +228,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
               src={plogo}
               className="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="logo"/>
             <span className="ml-1 font-semibold transition-all duration-200 ease-nav-brand" >
-             Hostel Dashboard
+             Domestic Dynamo
              <button onClick={Vmodalopen}>
              </button>
             </span>
@@ -292,7 +292,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
                 </span>
               </Link>
             </li>
-            <li className="mt-0.5 w-full" id="feedbackli">
+            {/* <li className="mt-0.5 w-full" id="feedbackli">
               <Link onClick={() => setact(3)}
                 className={`py-2.7 text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap px-4 font-semibold text-slate-700 transition-colors ${isact===3 && "shadow-soft-xl rounded-lg bg-white"}`}
                 to="/temp"
@@ -304,7 +304,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
                   Feedback
                 </span>
               </Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link to="/about">about</Link>
             </li> */}
@@ -413,7 +413,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
     <ul className="profile-card-details">
     <li className="profile-card-details-item">
         <span className="profile-card-details-label">Hostel :</span>
-        <span className="profile-card-details-value">MBH F</span>
+        <span className="profile-card-details-value">Hostel 1</span>
       </li>
       <li className="profile-card-details-item">
         <span className="profile-card-details-label">Room :</span>

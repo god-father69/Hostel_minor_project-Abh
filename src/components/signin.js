@@ -58,12 +58,12 @@ export const Signin = (props) => {
 }
   return (
    <>
-   <div className="container signinbox">
-   <section className="bg-gray-50 dark:bg-gray-900 siginsection">
+   <div className="container signinbox signinbg">
+   <section className="bg-gray-50 dark:bg-gray-900 siginsection" style={{marginLeft:'1000px'}}>
   <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 sectonexdiv">
       <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
           <img className="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" />
-          Mega Boys Hostel    
+          Domestic Dynamo
       </a>
       <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -107,6 +107,6 @@ export const Signin = (props) => {
   </div>
 </section>
    </div>
-   </>
+   </>  
   )
 }
