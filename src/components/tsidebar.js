@@ -4,10 +4,14 @@ import noteContext from '../context/noteContext'
 import { Link,useNavigate} from "react-router-dom";
 import plogo from './static/purplelogo.png';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import HomeIcon from '@mui/icons-material/Home';
 import QrCodeRoundedIcon from '@mui/icons-material/QrCodeRounded';
+import WidgetsIcon from '@mui/icons-material/Widgets';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import MoveToInboxRoundedIcon from '@mui/icons-material/MoveToInboxRounded';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
 import CrisisAlertRoundedIcon from '@mui/icons-material/CrisisAlertRounded';
+import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import axios from 'axios'
 
 let number=0;
@@ -244,7 +248,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
               >
                 <div className={`shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5  ${isact===1 && "bg-gradient-to-tl from-purple-700 to-pink-500"}` }>
               
-                <HomeRoundedIcon className={`${isact===1?'whitess':'blackss'}`}/>
+                <HomeIcon className={`${isact===1?'whitess':'blackss'}`}/>
 
                 </div>
                 <span className="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">
@@ -258,7 +262,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
                 to="/vichla"
               >
                 <div className={`shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5  ${isact===2 && "bg-gradient-to-tl from-purple-700 to-pink-500"}` }>
-                <QrCodeRoundedIcon className={`${isact===2?'whitess':'blackss'}`}/>
+                <WidgetsIcon className={`${isact===2?'whitess':'blackss'}`}/>
                 </div>
                 <span className="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">
                   Leave Pass
@@ -272,7 +276,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
                 to="/complains"
               >
                 <div className={`shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5  ${isact===4 && "bg-gradient-to-tl from-purple-700 to-pink-500"}` }>
-                <CrisisAlertRoundedIcon className={`${isact===4?'whitess':'blackss'}`}/>
+                <StickyNote2Icon className={`${isact===4?'whitess':'blackss'}`}/>
                 </div>
                 <span className="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">
                   Complains
@@ -285,7 +289,7 @@ axios.post(`http://${state.backend}:${state.port}/api/a/newupload`, formData, {h
                 to="/attendance"
               >
                 <div className={`shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5  ${isact===5 && "bg-gradient-to-tl from-purple-700 to-pink-500"}` }>
-                <MoveToInboxRoundedIcon className={`${isact===5?'whitess':'blackss'}`}/>
+                <HowToRegIcon className={`${isact===5?'whitess':'blackss'}`}/>
                 </div>
                 <span className="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">
                   Attendance

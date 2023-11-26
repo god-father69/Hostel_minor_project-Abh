@@ -57,6 +57,7 @@
     margin: 20px;
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
 }
 .thisisbgcv{
     background-image: url('./components/static/bluesky.jpeg');
@@ -171,6 +172,12 @@
     display: flex;
     flex-direction: column; */
   }
+  .pp{
+    margin: 2em;
+    /* opacity: 5; */
+    color: #000000b0;
+    font-size: 1.2em;
+  }
   .relly{
     position: sticky;
     left: 0;
@@ -278,7 +285,7 @@ padding: 2px;
     display: none!important;
   }
   .billoone{
-    flex-direction: row;
+    flex-direction: column;
   }
   .blackbgp{
     height: 135px;
@@ -2497,7 +2504,7 @@ h6 {
 .from-purple-700 {
     --tw-gradient-from: #7928ca;
     --tw-gradient-to: rgb(121 40 202 / 0);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-stops: #252729, #ee067b;
 }
 
 .from-slate-600 {
